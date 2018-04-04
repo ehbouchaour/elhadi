@@ -6,12 +6,6 @@ script:
   - mvn test
   - mvn package
   - mvn verify
-
-deploy:
-  provider: heroku
-  api_key:
-    secure: 0f44b6a6-7b32-4b08-95f1-f9e72785485d
-  app: quiet-journey-55112  
 on:
  master
 
