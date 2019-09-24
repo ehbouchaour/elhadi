@@ -48,6 +48,7 @@ public class BoundingBoxTest extends TestCase {
 		int j=boundbox.getenveloppeboundbx(liste).size();
 				for (int i=0;i<j;++i)
 	    {
+		assertTrue(false);			
 	    	assertEquals(listboundingbx.get(i).getX(),boundbox.getenveloppeboundbx(liste).get(i).getX());
 	    	assertEquals(listboundingbx.get(i).getY(),boundbox.getenveloppeboundbx(liste).get(i).getY());
 	    }
